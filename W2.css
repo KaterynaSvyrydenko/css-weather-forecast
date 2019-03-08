@@ -1,0 +1,140 @@
+
+
+html,
+body {
+	height: 100%;
+
+}
+
+
+body {
+	margin: 0;
+	background-color: #0098C7;
+	border: 14px solid #0081A7;
+	box-sizing: border-box;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: white;
+}
+
+p {
+ color: rgba(255, 255, 255, 0.5);
+}
+
+
+.next {
+	height: 70%;
+    width: 65%; 
+	margin: 0 auto;
+	box-sizing: border-box;
+    background-color: #0098C7;	
+	
+}	
+
+
+ul {
+	list-style: none;
+	font-size: 0;
+	border: 2px solid white;
+	padding: 0;
+	margin-top: 60px;
+	background: white;
+
+}
+
+li {
+ display: inline-block;
+ padding: 0;
+ font-size: 14px;
+ border: 2px solid white;
+ border-collapse: collapse;
+ text-align: center;
+ padding-top: 10px;
+ transition-property: background-color, border-color;
+ transition-duration: .1s;
+ transition-timing-function: ease-in;
+ height: 100px;
+ box-sizing: border-box;
+
+}
+
+ul:hover li {
+
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+
+.Lisbon {
+ width: 50%;
+ background: #0098C7;
+
+}
+ 
+.Paris {
+
+ width: 25%;
+ background: #00CBC9;
+}
+
+.Belgrade {
+ width: 25%;
+ background: #A46695;
+}
+
+.Moscow {
+ width: 25%;
+ background: #D8484C;
+}
+
+
+.Tel {
+ width: 25%;
+ background: #FB6653;
+}
+
+
+.Cair {
+ width: 25%;
+ background: #FFCA74;
+}
+
+
+.York {
+ width: 25%;
+ background: #83CB9B;
+}
+
+.Delhi {
+ width: 25%;
+ background: #4D9897; 
+}
+
+
+.Francisco {
+ width: 50%;
+ background: #E06696;
+}
+
+
+.Tokio {
+ width: 25%;
+ background: #009769;
+}
+
+
+.Sydney {
+ width: 100%;
+ background: #656695;
+}
+
+.title {
+	position: relative;
+	top: 50px;
+}
+
+
+
